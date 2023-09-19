@@ -39,11 +39,14 @@ function Calculator() {
   };
 
   return (
-    <div className="calc-container">
-      <div className="output">{next || total || operation || 0}</div>
-      {calcElements.map((number) => (
-        <Items number={number} key={number} handleClick={handleClick} />
-      ))}
+    <div>
+      <div className="calc-container">
+        <div className="output">{next || total || operation || 0}</div>
+        {calcElements.map((number) => (
+          <Items number={number} key={number} handleClick={handleClick} />
+        ))}
+      </div>
+      <div className="calc-footer" />
     </div>
   );
 }
