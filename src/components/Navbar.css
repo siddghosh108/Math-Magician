@@ -3,11 +3,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  background-color: rgb(245, 232, 234);
+  background-color: pink;
 }
 
 nav h1 {
-  color: #75085e91;
+  color: #ba259a91;
   font-size: 40px;
   margin-left: 20px;
 }
@@ -24,7 +24,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #574e5591;
+  color: #ba259a91;
 }
 
 nav ul li:hover {

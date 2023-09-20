@@ -1,6 +1,6 @@
 html {
-  background-color: rgb(255, 251, 245);
-  color: #968893;
+  background-color: bisque;
+  color: #ff0cd3;
   height: 200px;
 }
 
@@ -9,7 +9,7 @@ h2 {
   text-align: center;
   padding-top: 3rem;
   margin-bottom: 3rem;
-  color: #7c707a;
+  color: #ff07d1;
 }
 
 .text-container p {
@@ -20,7 +20,7 @@ h2 {
 }
 
 .math {
-  color: #867e85;
+  color: #ff07d1;
   padding-top: 5rem;
   font-size: 38px;
   text-align: center;
